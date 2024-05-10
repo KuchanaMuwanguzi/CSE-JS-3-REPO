@@ -7,25 +7,27 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Courses</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Students</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Staff</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Departments</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Partners</a>
-        </li>
 
+        <li class="nav-item">
+          <RouterLink to="/">
+            <a class="nav-link" href="#">StudentsDashboard</a> 
+          </RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/students/register">
+            <a class="nav-link" href="#">Studentsregister</a> 
+          </RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/students/studentsView">
+            <a class="nav-link" href="#">StudentsView</a> 
+          </RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/students/detail">
+            <a class="nav-link" href="#">StudentsDetailView</a> 
+          </RouterLink>
+        </li>
       </ul>
     </div>
   </div>
