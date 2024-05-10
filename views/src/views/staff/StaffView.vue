@@ -5,8 +5,7 @@
     </template>
     
     <script>
-    export default {
-        name: 'StaffView'}
+    export default {name: 'StaffView'}
     </script>
     
     <style>
